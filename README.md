@@ -1,7 +1,12 @@
-# CV-Mask-detection
+# HCI-Mask-Detection-Analysis-Project
 Face Mask Detection web applicaion built with Flask, Keras-TensorFlow, OpenCV.  
 It can be used to detect Face masks in real-time.  
 It also provides a real-time summary of the percentage of the time mask is worn.
+
+## HCI Project
+- Veermata Jijabai Technological Institute
+- Yash S. Jain (ysjain_b17@it.vjti.ac.in)
+- Yash R. Jain (yrjain_b17@it.vjti.ac.in)
 
 ## Technologies
 - Keras/Tensorflow
