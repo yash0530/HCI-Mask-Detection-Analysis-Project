@@ -11,7 +11,7 @@ from source.utils import preprocess_face_frame, decode_prediction, write_bb, loa
 model = keras.models.load_model('models/mask_mobilenet.h5')
 face_detector = load_cascade_detector()
 
-labels = [ 5, 6 ]
+labels = [ 0, 0 ]
 
 def video_mask_detector():
     video = VideoStream(src=0).start()
