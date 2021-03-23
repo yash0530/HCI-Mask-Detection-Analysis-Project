@@ -69,10 +69,10 @@ def detect_mask_in_frame(frame):
             mask_or_not, confidence = decode_prediction(pred)
             write_bb(mask_or_not, confidence, faces_dict["faces_rect"][i], frame)
 
-    if (mask_or_not == "No mask"):
-        labels[0] += 1
-    else:
-        labels[1] += 1
+        if (mask_or_not == "No mask"):
+            labels[0] += 1
+        else:
+            labels[1] += 1
     
     return frame
 
